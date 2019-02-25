@@ -1,0 +1,214 @@
+{
+  "divisions": [
+    {
+      "name": "Monday Recreational 1",
+      "id": 1
+    },
+    {
+      "name": "Monday Recreational 2",
+      "id": 2
+    },
+    {
+      "name": "Monday Intermediate",
+      "id": 3
+    },
+    {
+      "name": "Tuesday Recreational 1",
+      "id": 4
+    },
+    {
+      "name": "Tuesday Recreational 2",
+      "id": 5
+    }
+  ],
+  "teams": [
+    {
+      "name": "Atlantic Partners",
+      "division": {
+        "_id": 1,
+        "name": "Monday Recreational 1"
+      },
+      "id": 1
+    },
+    {
+      "name": "BTTW",
+      "division": {
+        "_id": 1,
+        "name": "Monday Recreational 1"
+      },
+      "id": 2
+    },
+    {
+      "name": "VIP",
+      "division": {
+        "_id": 1,
+        "name": "Monday Recreational 1"
+      },
+      "id": 3
+    },
+    {
+      "name": "Basic Pitches",
+      "division": {
+        "_id": 2,
+        "name": "Monday Recreational 2"
+      },
+      "id": 4
+    }
+  ],
+  "players": [
+    {
+      "name": {
+        "first": "Daniel",
+        "last": "Morales"
+      },
+      "general": {
+        "number": "30",
+        "position": "1B",
+        "bats": "R",
+        "throws": "R"
+      },
+      "metadata": {
+        "birthDate": "July 3rd, 1981",
+        "birthPlace": "Valencia, Venezuela",
+        "experience": "10",
+        "college": "none",
+        "height": "5-11",
+        "weight": "184"
+      },
+      "stats": {
+        "avg": ".316",
+        "hr": "1",
+        "rbi": "20",
+        "obp": ".200"
+      },
+      "team": {
+        "name": "Atlantic Partners"
+      },
+      "id": 1
+    },
+    {
+      "name": {
+        "first": "Cesar",
+        "last": "Morales"
+      },
+      "img": {
+        "src": "../images/joseAltuve.png"
+      },
+      "general": {
+        "number": "30",
+        "position": "1B",
+        "bats": "R",
+        "throws": "R"
+      },
+      "metadata": {
+        "birthDate": "July 8th, 1983",
+        "birthPlace": "Valencia, Venezuela",
+        "experience": "10",
+        "college": "none",
+        "height": "6-0",
+        "weight": "190"
+      },
+      "stats": {
+        "avg": ".350",
+        "hr": "4",
+        "rbi": "30",
+        "obp": ".312"
+      },
+      "team": {
+        "name": "Atlantic Partners"
+      },
+      "id": 2
+    },
+    {
+      "name": {
+        "first": "Jeremy",
+        "last": "Lawson"
+      },
+      "general": {
+        "number": "30",
+        "position": "1B",
+        "bats": "R",
+        "throws": "R"
+      },
+      "metadata": {
+        "birthDate": "July 3rd, 1981",
+        "birthPlace": "West Palm, USA",
+        "experience": "10",
+        "college": "none",
+        "height": "5-11",
+        "weight": "184"
+      },
+      "stats": {
+        "avg": ".316",
+        "hr": "1",
+        "rbi": "20",
+        "obp": ".200"
+      },
+      "team": {
+        "name": "Atlantic Partners"
+      },
+      "id": 3
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "meta": {
+        "divisionID": 1,
+        "date": "2018-08-21"
+      },
+      "home": {
+        "id": 2,
+        "name": "BTTW",
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
+      },
+      "away": {
+        "id": 1,
+        "name": "Atlantic Partners",
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
+      },
+      "currentInning": 0,
+      "innings": [
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        },
+        {
+          "home": 0,
+          "away": 0,
+          "isActive": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "generic_starter",
+  "version": "1.0.0",
+  "description": "A generic starting structure for simple sites. This is also meant to be a good starting point for more complex sites that have different file structures. Feel free to augment and adopt to your situation.",
+  "main": "index.js",
+  "author": "Jeremy 'Jermbo' Lawson",
+  "license": "MIT",
+  "scripts": {
+    "db": "./node_modules/.bin/json-server --watch ./database/data.json --port 4000"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
+}
